@@ -24,10 +24,10 @@ func getPerson() messages.Person {
 		Name:  "Akash",
 		Id:    "random-id",
 		Email: "akashg@getsimpl.com",
-		Phones: []*messages.Person_PhoneNumber{
+		Phones: []*messages.PhoneNumber{
 			{
 				Number: "1234567890",
-				Type:   messages.Person_MOBILE,
+				Type:   messages.PhoneType_MOBILE,
 			},
 		},
 	}
